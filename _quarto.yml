@@ -2,7 +2,7 @@ project:
   type: website
   # Quarto writes the finished website into docs/, which GitHub Pages serves.
   output-dir: docs
-  # Files used by raw HTML on the home page, which Quarto would not copy on its own.
+  # Files used by raw HTML, which Quarto would not copy on its own.
   resources:
     - cells.js
     - images/
@@ -17,8 +17,6 @@ website:
         text: Home
       - href: research.qmd
         text: Research
-      - href: projects/index.qmd
-        text: Projects
       - href: news.qmd
         text: News
       - href: blog/index.qmd
@@ -42,6 +40,9 @@ format:
   html:
     theme: [cosmo, styles.scss]
     toc: false
+    # No math on this site, so skip loading MathJax and its polyfill from outside servers.
+    html-math-method: plain
+    include-after-body: _includes/cell-background.html
     # Privacy: no analytics, no comment widgets, no third-party fonts.
     include-in-header:
       text: |

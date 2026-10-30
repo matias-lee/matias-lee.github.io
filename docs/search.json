@@ -14,20 +14,6 @@
     "text": "Reflections as a graduate student\n\n\nCan large language models conduct research on their own?\n\n\n\n\n\nJul 24, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "An updated CV is coming soon. In the meantime, see my LinkedIn."
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research & Publications",
@@ -42,11 +28,11 @@
     "text": "Measuring gene expression while keeping track of where each cell sits in a tissue. I work with data from platforms such as Visium, Visium HD, MERFISH, and Atera to study how tissue structure relates to cell behavior.\n\n\n\nDesigning statistical and computational methods that pull biological signal out of noisy measurements, with a focus on how cells interact with their neighbors.\n\n\n\nWorking with large, high-dimensional datasets that capture millions of transcripts across thousands of cells, and finding efficient ways to explore and interpret them.\n\n\n\nTurning methods into documented, tested tools that other researchers can install and apply to their own data."
   },
   {
-    "objectID": "research.html#current-project",
-    "href": "research.html#current-project",
+    "objectID": "research.html#projects",
+    "href": "research.html#projects",
     "title": "Research & Publications",
-    "section": "Current project",
-    "text": "Current project\n\nIn progress\n\nSubcellular context in cell-cell communication\nCells produce many of the signals they send to each other within specialized compartments inside the cell. My current work explores how this subcellular context can inform predictions of cell-cell communication from spatial transcriptomics data.\nKeywords: spatial transcriptomics · subcellular organization · cell-cell communication"
+    "section": "Projects",
+    "text": "Projects\n\nIn progress\n\nSubcellular context in cell-cell communication\nCells produce many of the signals they send to each other within specialized compartments inside the cell. My current work explores how this subcellular context can inform predictions of cell-cell communication from spatial transcriptomics data.\nKeywords: spatial transcriptomics · subcellular organization · cell-cell communication"
   },
   {
     "objectID": "research.html#publications",
@@ -54,6 +40,13 @@
     "title": "Research & Publications",
     "section": "Publications",
     "text": "Publications\nA full list is on Google Scholar and ORCID."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "An updated CV is coming soon. In the meantime, see my LinkedIn."
   },
   {
     "objectID": "blog/2026-07-24-llms-and-research/index.html",
@@ -67,6 +60,6 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "Oct 2026 · Launched this website."
+    "text": "Oct 2026 Launched this website.\nAug 2026 Joined Dr. Fan’s lab!"
   }
 ]

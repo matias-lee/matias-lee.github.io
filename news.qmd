@@ -2,6 +2,9 @@
 title: "News"
 ---
 
-<!-- Add the newest item at the top. One line per update. -->
+<!-- Add the newest item at the top: copy a line and change the date and text. -->
 
-- **Oct 2026** · Launched this website.
+::: {.news-list}
+- [Oct 2026]{.news-date} [Launched this website.]{.news-text}
+- [Aug 2026]{.news-date} [Joined [Dr. Fan's lab](https://jef.works)!]{.news-text}
+:::

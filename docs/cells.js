@@ -10,6 +10,9 @@
 (function () {
   const canvas = document.getElementById("cell-bg");
   if (!canvas) return;
+  // Quarto places the canvas inside the page content; move it to the start of
+  // <body> so it sits behind the content instead of in front of it.
+  if (canvas.parentElement !== document.body) document.body.insertBefore(canvas, document.body.firstChild);
   const ctx = canvas.getContext("2d");
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 

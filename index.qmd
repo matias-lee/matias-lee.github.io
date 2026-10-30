@@ -2,16 +2,11 @@
 pagetitle: "Matias Lee"
 page-layout: full
 title-block-banner: false
+body-classes: home
 ---
 
 ```{=html}
-<!-- Animated cell background (cells.js). The card below is a quiet zone. -->
-<canvas id="cell-bg" data-quiet=".home-panel" aria-hidden="true"></canvas>
-
 <style>
-  #cell-bg { position: fixed; inset: 0; z-index: 0; display: block; pointer-events: none; }
-  #quarto-content, .nav-footer { position: relative; z-index: 1; }
-  .nav-footer { background: transparent; }
   .home-panel {
     background: rgba(255, 255, 255, 0.86);
     backdrop-filter: blur(3px);
@@ -63,6 +58,4 @@ title-block-banner: false
     <!-- TODO (step 3): expand this bio, add research interests and education. -->
   </div>
 </div>
-
-<script src="cells.js"></script>
 ```

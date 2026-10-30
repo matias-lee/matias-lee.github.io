@@ -20,6 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
@@ -39,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8cd6db93d378f628a9b0aebcf3ab8b37.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-855f89bc18de9e23ebb294a21de4558e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed home quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -96,10 +97,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html"> 
-<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./news.html"> 
@@ -148,13 +145,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<!-- Animated cell background (cells.js). The card below is a quiet zone. -->
-<canvas id="cell-bg" data-quiet=".home-panel" aria-hidden="true"></canvas>
-
 <style>
-  #cell-bg { position: fixed; inset: 0; z-index: 0; display: block; pointer-events: none; }
-  #quarto-content, .nav-footer { position: relative; z-index: 1; }
-  .nav-footer { background: transparent; }
   .home-panel {
     background: rgba(255, 255, 255, 0.86);
     backdrop-filter: blur(3px);
@@ -207,11 +198,12 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </div>
 
-<script src="cells.js"></script>
-
 
 
 </main> <!-- /main -->
+<!-- Animated cell background on every page (cells.js). The page's text card is a quiet zone. -->
+<canvas id="cell-bg" data-quiet=".home-panel, body:not(.home) main.content" aria-hidden="true"></canvas>
+<script src="./cells.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

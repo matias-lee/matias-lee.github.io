@@ -26,7 +26,7 @@ Turning methods into documented, tested tools that other researchers can install
 :::
 :::
 
-## Current project
+## Projects
 
 ::: {.research-panel}
 [In progress]{.panel-label}

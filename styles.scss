@@ -71,3 +71,71 @@ $primary: #2f6f8f;
     font-size: 0.95rem;
   }
 }
+
+// Animated cell background (cells.js) sits behind every page.
+#cell-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  display: block;
+  pointer-events: none;
+}
+
+#quarto-content,
+.nav-footer {
+  position: relative;
+  z-index: 1;
+}
+
+.nav-footer {
+  background: transparent;
+}
+
+// On every page except home, the text sits on a frosted card so it stays readable.
+body:not(.home) main.content {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid #d5e2ea;
+  border-radius: 14px;
+  padding: 1.5rem 2rem 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  // Size the card to its content rather than stretching it to the window.
+  align-self: start;
+
+  @media (max-width: 640px) {
+    padding: 1.25rem 1rem 1.5rem;
+  }
+}
+
+// News: date on the left, item on the right.
+.news-list ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.news-list li {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e3ecf1;
+}
+
+.news-list li:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  color: $primary;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+// Blog list: narrower date column so posts read as one list.
+#listing-listing .quarto-post .metadata {
+  flex-basis: 7rem;
+  flex-shrink: 0;
+}
