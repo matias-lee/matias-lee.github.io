@@ -1,25 +1,68 @@
 ---
-title: "Matias Lee"
-subtitle: "PhD Student · Biomedical Engineering · Johns Hopkins University"
-about:
-  template: trestles
-  image: images/headshot.jpg
-  image-shape: round
-  links:
-    - icon: envelope
-      text: Email
-      href: "mailto:mlee346@jh.edu"
-    - icon: linkedin
-      text: LinkedIn
-      href: "https://www.linkedin.com/in/matias-lee-phd"
-    - icon: mortarboard
-      text: Google Scholar
-      href: "https://scholar.google.com/citations?hl=en&user=iKfYj4MAAAAJ"
-    - icon: person-badge
-      text: ORCID
-      href: "https://orcid.org/0009-0008-1454-8268"
+pagetitle: "Matias Lee"
+page-layout: full
+title-block-banner: false
 ---
 
-I am a second-year PhD student in the Department of Biomedical Engineering at Johns Hopkins University. My research focuses on developing computational spatial transcriptomics methods to model cell-cell communication.
+```{=html}
+<!-- Animated cell background (cells.js). The card below is a quiet zone. -->
+<canvas id="cell-bg" data-quiet=".home-panel" aria-hidden="true"></canvas>
 
-<!-- TODO (step 3): expand this bio, add research interests and education. -->
+<style>
+  #cell-bg { position: fixed; inset: 0; z-index: 0; display: block; pointer-events: none; }
+  #quarto-content, .nav-footer { position: relative; z-index: 1; }
+  .nav-footer { background: transparent; }
+  .home-panel {
+    background: rgba(255, 255, 255, 0.86);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid #d5e2ea;
+    border-radius: 14px;
+    max-width: 900px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .home-side { display: flex; flex-direction: column; align-items: center; gap: 0.75rem; text-align: center; min-width: 0; }
+  .home-side img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; }
+  .home-side h1 { margin: 0.25rem 0 0; font-size: 1.8rem; }
+  .home-side .sub { margin: 0; color: #55697a; font-size: 0.95rem; }
+  .home-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+  .home-links a {
+    width: 42px; height: 42px; display: grid; place-items: center;
+    border: 1px solid #2f6f8f; color: #2f6f8f; border-radius: 50%;
+    transition: background 0.15s, color 0.15s;
+  }
+  .home-links a:hover, .home-links a:focus-visible { background: #2f6f8f; color: #fff; }
+  .home-links svg { width: 20px; height: 20px; }
+  .home-bio { min-width: 0; max-width: 65ch; }
+  .home-bio h2 { margin-top: 0; border-bottom: none; }
+  @media (max-width: 720px) {
+    .home-panel { grid-template-columns: 1fr; padding: 1.5rem; gap: 1.25rem; margin: 1rem auto; }
+  }
+</style>
+
+<div class="home-panel">
+  <div class="home-side">
+    <img src="images/headshot.jpg" alt="Headshot of Matias Lee">
+    <h1>Matias Lee</h1>
+    <p class="sub">PhD Student · Biomedical Engineering · Johns Hopkins University</p>
+    <div class="home-links">
+      <a href="mailto:mlee346@jh.edu" aria-label="Email" title="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 6.5 12 13l8.5-6.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></a>
+      <a href="https://www.linkedin.com/in/matias-lee-phd" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11H3zM9.5 9.75h3.8v1.6h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.6 4.77 6v5.45h-4v-4.84c0-1.15-.02-2.64-1.6-2.64-1.62 0-1.86 1.26-1.86 2.56v4.92h-4z"/></svg></a>
+      <a href="https://github.com/matias-lee" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+      <a href="https://scholar.google.com/citations?hl=en&amp;user=iKfYj4MAAAAJ" aria-label="Google Scholar" title="Google Scholar"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3 1 9.5l11 6.5 9-5.32V17h2V9.5z"/><path fill="currentColor" d="M5.5 13.2v3.3c0 1.9 2.9 3.5 6.5 3.5s6.5-1.6 6.5-3.5v-3.3L12 17z"/></svg></a>
+      <a href="https://orcid.org/0009-0008-1454-8268" aria-label="ORCID" title="ORCID"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8"/><text x="12" y="16" text-anchor="middle" font-size="10" font-weight="700" font-family="Arial, sans-serif" fill="currentColor">iD</text></svg></a>
+    </div>
+  </div>
+  <div class="home-bio">
+    <h2>About</h2>
+    <p>I am a second-year PhD student in the Department of Biomedical Engineering at Johns Hopkins University. My research focuses on developing computational spatial transcriptomics methods to model cell-cell communication.</p>
+    <!-- TODO (step 3): expand this bio, add research interests and education. -->
+  </div>
+</div>
+
+<script src="cells.js"></script>
+```

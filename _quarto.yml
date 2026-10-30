@@ -2,6 +2,10 @@ project:
   type: website
   # Quarto writes the finished website into docs/, which GitHub Pages serves.
   output-dir: docs
+  # Files used by raw HTML on the home page, which Quarto would not copy on its own.
+  resources:
+    - cells.js
+    - images/
 
 website:
   title: "Matias Lee"
@@ -28,6 +32,9 @@ website:
       - icon: linkedin
         href: "https://www.linkedin.com/in/matias-lee-phd"
         aria-label: LinkedIn
+      - icon: github
+        href: "https://github.com/matias-lee"
+        aria-label: GitHub
   page-footer:
     center: "© 2026 Matias Lee · Built with [Quarto](https://quarto.org)"
 
