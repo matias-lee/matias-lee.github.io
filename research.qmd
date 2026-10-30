@@ -4,7 +4,27 @@ title: "Research & Publications"
 
 ## Research interests
 
-Computational methods for spatial transcriptomics, cell-cell communication, and subcellular gene expression.
+::: {.interest-grid}
+::: {.interest-card}
+#### Spatial transcriptomics
+Measuring gene expression while keeping track of where each cell sits in a tissue. I work with data from platforms such as Visium, Visium HD, MERFISH, and Atera to study how tissue structure relates to cell behavior.
+:::
+
+::: {.interest-card}
+#### Computational method development
+Designing statistical and computational methods that pull biological signal out of noisy measurements, with a focus on how cells interact with their neighbors.
+:::
+
+::: {.interest-card}
+#### Analysis of dense biological datasets
+Working with large, high-dimensional datasets that capture millions of transcripts across thousands of cells, and finding efficient ways to explore and interpret them.
+:::
+
+::: {.interest-card}
+#### Open-source software
+Turning methods into documented, tested tools that other researchers can install and apply to their own data.
+:::
+:::
 
 ## Current project
 

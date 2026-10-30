@@ -32,14 +32,14 @@
     "href": "research.html",
     "title": "Research & Publications",
     "section": "",
-    "text": "Computational methods for spatial transcriptomics, cell-cell communication, and subcellular gene expression."
+    "text": "Measuring gene expression while keeping track of where each cell sits in a tissue. I work with data from platforms such as Visium, Visium HD, MERFISH, and Atera to study how tissue structure relates to cell behavior.\n\n\n\nDesigning statistical and computational methods that pull biological signal out of noisy measurements, with a focus on how cells interact with their neighbors.\n\n\n\nWorking with large, high-dimensional datasets that capture millions of transcripts across thousands of cells, and finding efficient ways to explore and interpret them.\n\n\n\nTurning methods into documented, tested tools that other researchers can install and apply to their own data."
   },
   {
     "objectID": "research.html#research-interests",
     "href": "research.html#research-interests",
     "title": "Research & Publications",
     "section": "",
-    "text": "Computational methods for spatial transcriptomics, cell-cell communication, and subcellular gene expression."
+    "text": "Measuring gene expression while keeping track of where each cell sits in a tissue. I work with data from platforms such as Visium, Visium HD, MERFISH, and Atera to study how tissue structure relates to cell behavior.\n\n\n\nDesigning statistical and computational methods that pull biological signal out of noisy measurements, with a focus on how cells interact with their neighbors.\n\n\n\nWorking with large, high-dimensional datasets that capture millions of transcripts across thousands of cells, and finding efficient ways to explore and interpret them.\n\n\n\nTurning methods into documented, tested tools that other researchers can install and apply to their own data."
   },
   {
     "objectID": "research.html#current-project",

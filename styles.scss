@@ -41,3 +41,33 @@ $primary: #2f6f8f;
   border-radius: 999px;
   padding: 0.15rem 0.6rem;
 }
+
+// Research interest cards on the Research page.
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.interest-card {
+  border: 1px solid #d5e2ea;
+  border-top: 3px solid $primary;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+
+  h4 {
+    margin-top: 0;
+    font-size: 1.05rem;
+    color: $primary;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+  }
+}
