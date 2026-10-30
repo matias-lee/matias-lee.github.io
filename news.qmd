@@ -5,7 +5,7 @@ title: "News"
 <!-- Add the newest item at the top: copy a line and change the date and text. -->
 
 ::: {.news-list}
-- [Oct 2026]{.news-date} [Launched this website.]{.news-text}
+- [Oct 2026]{.news-date} [Launched this website 👨‍💻]{.news-text}
 - [Aug 2026]{.news-date} [Joined [Dr. Fan's lab](https://jef.works)!]{.news-text}
-- [Apr 2026]{.news-date} [Awarded the NSF Graduate Research Fellowship.]{.news-text}
+- [Apr 2026]{.news-date} [Awarded the NSF Graduate Research Fellowship! 📜]{.news-text}
 :::
