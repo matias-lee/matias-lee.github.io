@@ -1,0 +1,41 @@
+project:
+  type: website
+  # Quarto writes the finished website into docs/, which GitHub Pages serves.
+  output-dir: docs
+
+website:
+  title: "Matias Lee"
+  site-url: "https://matias-lee.github.io"
+  description: "PhD student in Biomedical Engineering at Johns Hopkins University."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: projects/index.qmd
+        text: Projects
+      - href: news.qmd
+        text: News
+      - href: blog/index.qmd
+        text: Blog
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: envelope
+        href: "mailto:mlee346@jh.edu"
+        aria-label: Email
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/matias-lee-phd"
+        aria-label: LinkedIn
+  page-footer:
+    center: "© 2026 Matias Lee · Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: false
+    # Privacy: no analytics, no comment widgets, no third-party fonts.
+    include-in-header:
+      text: |
+        <meta name="referrer" content="strict-origin-when-cross-origin">

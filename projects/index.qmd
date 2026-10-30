@@ -1,0 +1,10 @@
+---
+title: "Projects"
+listing:
+  contents: "*/index.qmd"
+  type: grid
+  sort: "date desc"
+  fields: [image, title, description]
+---
+
+<!-- Each project is a folder in projects/ with its own index.qmd. -->

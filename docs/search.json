@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Matias Lee",
+    "section": "",
+    "text": "I am a second-year PhD student in the Department of Biomedical Engineering at Johns Hopkins University. My research focuses on developing computational spatial transcriptomics methods to model cell-cell communication."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Reflections as a graduate student\n\n\nCan large language models conduct research on their own?\n\n\n\n\n\nJul 24, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "An updated CV is coming soon. In the meantime, see my LinkedIn."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research & Publications",
+    "section": "",
+    "text": "Computational spatial transcriptomics and cell-cell communication."
+  },
+  {
+    "objectID": "research.html#research-interests",
+    "href": "research.html#research-interests",
+    "title": "Research & Publications",
+    "section": "",
+    "text": "Computational spatial transcriptomics and cell-cell communication."
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research & Publications",
+    "section": "Publications",
+    "text": "Publications\nA full list is on Google Scholar and ORCID."
+  },
+  {
+    "objectID": "blog/2026-07-24-llms-and-research/index.html",
+    "href": "blog/2026-07-24-llms-and-research/index.html",
+    "title": "Reflections as a graduate student",
+    "section": "",
+    "text": "In this blog, I will share my thoughts and experiences as a graduate student at Johns Hopkins University. In an era of rapid expansion of the use of Large Language Models (LLMs), in research there is a growing question about the ability of these models to be able to conduct autonomous research. I had a conversation today with a fellow CCB member, and we discussed the feasibility of LLMs in this context, and we were not convinced that they can fully replace human researchers in the near future."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "Oct 2026 · Launched this website."
+  }
+]

@@ -1,0 +1,7 @@
+# Quarto's working files
+/.quarto/
+# macOS
+.DS_Store
+# Keep drafts and private files out of the public repo
+private/
+*.docx

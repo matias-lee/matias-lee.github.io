@@ -1,0 +1,15 @@
+---
+title: "Research & Publications"
+---
+
+## Research interests
+
+Computational spatial transcriptomics and cell-cell communication.
+
+<!-- TODO (step 3): a short paragraph per research direction, with a figure. -->
+
+## Publications
+
+A full list is on [Google Scholar](https://scholar.google.com/citations?hl=en&user=iKfYj4MAAAAJ) and [ORCID](https://orcid.org/0009-0008-1454-8268).
+
+<!-- TODO (step 3): list publications here. -->

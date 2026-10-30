@@ -1,0 +1,7 @@
+---
+title: "CV"
+---
+
+An updated CV is coming soon. In the meantime, see my [LinkedIn](https://www.linkedin.com/in/matias-lee-phd).
+
+<!-- TODO (step 3): put the PDF in files/ and link it here. Strip its metadata first. -->

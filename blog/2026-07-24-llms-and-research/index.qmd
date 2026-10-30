@@ -1,0 +1,7 @@
+---
+title: "Reflections as a graduate student"
+description: "Can large language models conduct research on their own?"
+date: 2026-07-24
+---
+
+In this blog, I will share my thoughts and experiences as a graduate student at Johns Hopkins University. In an era of rapid expansion of the use of Large Language Models (LLMs), in research there is a growing question about the ability of these models to be able to conduct autonomous research. I had a conversation today with a fellow CCB member, and we discussed the feasibility of LLMs in this context, and we were not convinced that they can fully replace human researchers in the near future.
