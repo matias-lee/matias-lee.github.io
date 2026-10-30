@@ -87,15 +87,18 @@ $primary: #2f6f8f;
   z-index: 1;
 }
 
+// Footer text gets the same nearly opaque backing as the page cards.
 .nav-footer {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.96);
+  border-top: 1px solid #e3ecf1;
 }
 
 // On every page except home, the text sits on a frosted card so it stays readable.
 body:not(.home) main.content {
-  background: rgba(255, 255, 255, 0.88);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  // Nearly opaque: the cells are only faintly visible behind the text.
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   border: 1px solid #d5e2ea;
   border-radius: 14px;
   padding: 1.5rem 2rem 2rem;
