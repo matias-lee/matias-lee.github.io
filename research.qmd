@@ -11,13 +11,11 @@ Computational methods for spatial transcriptomics, cell-cell communication, and 
 ::: {.research-panel}
 [In progress]{.panel-label}
 
-### Bringing the endoplasmic reticulum into cell-cell interaction prediction
+### Subcellular context in cell-cell communication
 
-Many of the signals cells send to each other, such as secreted ligands, are made in the endoplasmic reticulum (ER) before they leave the cell. Most methods for predicting cell-cell interactions ignore where inside a cell a gene is expressed, so they miss this ER-specific information.
+Cells produce many of the signals they send to each other within specialized compartments, such as the endoplasmic reticulum (ER). My current work explores how this subcellular context can inform predictions of cell-cell communication from spatial transcriptomics data.
 
-My current work explores how this kind of subcellular information, starting with the ER, can be brought into spatial transcriptomics analyses to improve predictions of how cells communicate.
-
-**Keywords:** spatial transcriptomics · subcellular localization · endoplasmic reticulum · cell-cell communication
+**Keywords:** spatial transcriptomics · subcellular organization · cell-cell communication
 :::
 
 ## Publications
