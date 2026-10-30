@@ -96,9 +96,8 @@ $primary: #2f6f8f;
 // On every page except home, the text sits on a frosted card so it stays readable.
 body:not(.home) main.content {
   // Nearly opaque: the cells are only faintly visible behind the text.
+  // No backdrop blur: Safari can blank out tall blurred areas.
   background: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
   border: 1px solid #d5e2ea;
   border-radius: 14px;
   padding: 1.5rem 2rem 2rem;

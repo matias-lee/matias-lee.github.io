@@ -9,8 +9,6 @@ body-classes: home
 <style>
   .home-panel {
     background: rgba(255, 255, 255, 0.96);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
     border: 1px solid #d5e2ea;
     border-radius: 14px;
     max-width: 900px;
