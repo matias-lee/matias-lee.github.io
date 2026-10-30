@@ -13,7 +13,7 @@ Computational methods for spatial transcriptomics, cell-cell communication, and 
 
 ### Subcellular context in cell-cell communication
 
-Cells produce many of the signals they send to each other within specialized compartments, such as the endoplasmic reticulum (ER). My current work explores how this subcellular context can inform predictions of cell-cell communication from spatial transcriptomics data.
+Cells produce many of the signals they send to each other within specialized compartments inside the cell. My current work explores how this subcellular context can inform predictions of cell-cell communication from spatial transcriptomics data.
 
 **Keywords:** spatial transcriptomics · subcellular organization · cell-cell communication
 :::

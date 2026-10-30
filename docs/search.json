@@ -46,7 +46,7 @@
     "href": "research.html#current-project",
     "title": "Research & Publications",
     "section": "Current project",
-    "text": "Current project\n\nIn progress\n\nSubcellular context in cell-cell communication\nCells produce many of the signals they send to each other within specialized compartments, such as the endoplasmic reticulum (ER). My current work explores how this subcellular context can inform predictions of cell-cell communication from spatial transcriptomics data.\nKeywords: spatial transcriptomics · subcellular organization · cell-cell communication"
+    "text": "Current project\n\nIn progress\n\nSubcellular context in cell-cell communication\nCells produce many of the signals they send to each other within specialized compartments inside the cell. My current work explores how this subcellular context can inform predictions of cell-cell communication from spatial transcriptomics data.\nKeywords: spatial transcriptomics · subcellular organization · cell-cell communication"
   },
   {
     "objectID": "research.html#publications",
