@@ -1,4 +1,5 @@
-// Animated "signaling neighborhood" background for the home page.
+// "Signaling neighborhood" background, used on every page. It animates on the
+// home page only; other pages show the same cells as a still picture.
 // Cells of six types, each with its own shape, drift slowly. Now and then a cell sends a signal to a
 // neighbor; the pulse is colored by the pair of cell types involved, and the
 // receiving cell glows and may pass the signal on. Moving the cursor releases
@@ -7,6 +8,7 @@
 // are a quiet zone: the cursor sends no signals into or from them.
 // Plain JavaScript with no outside libraries. It pauses when the tab is hidden
 // and draws a single still frame for visitors who prefer reduced motion.
+// Cells are drawn at reduced opacity so they read as a soft texture.
 (function () {
   const canvas = document.getElementById("cell-bg");
   if (!canvas) return;
@@ -15,6 +17,8 @@
   if (canvas.parentElement !== document.body) document.body.insertBefore(canvas, document.body.firstChild);
   const ctx = canvas.getContext("2d");
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const still = reduceMotion || !document.body.classList.contains("home");
+  const OPACITY = 0.6;
 
   // Shades of blue, so every pairing still reads as one palette.
   // Each type also has its own outline: small round lymphocytes, cobblestone
@@ -132,7 +136,7 @@
       strength: strength,
       color: color || mix(from.type.rgb, to.type.rgb),
       // From a cursor point the pulse moves faster, so it feels responsive.
-      speed: from.type ? 0.0012 : 0.0028,
+      speed: from.type ? 0.0006 : 0.0014,
     });
   }
 
@@ -153,9 +157,9 @@
   function update(dt) {
     // Cells drift, wobble a little, and wrap around the edges.
     for (const c of cells) {
-      c.phase += dt * 0.0006;
-      c.x += (c.vx + Math.cos(c.phase) * 0.02) * dt * 0.06;
-      c.y += (c.vy + Math.sin(c.phase * 1.3) * 0.02) * dt * 0.06;
+      c.phase += dt * 0.0003;
+      c.x += (c.vx + Math.cos(c.phase) * 0.02) * dt * 0.03;
+      c.y += (c.vy + Math.sin(c.phase * 1.3) * 0.02) * dt * 0.03;
       if (c.type.shape === "spindle") {
         // Fibroblasts slowly turn to point along their direction of travel.
         const heading = Math.atan2(c.vy, c.vx);
@@ -169,7 +173,7 @@
       if (c.x < -m) c.x = width + m; else if (c.x > width + m) c.x = -m;
       if (c.y < -m) c.y = height + m; else if (c.y > height + m) c.y = -m;
 
-      c.glow = Math.max(0, c.glow - dt * 0.0009);
+      c.glow = Math.max(0, c.glow - dt * 0.0006);
       c.cooldown -= dt;
       if (c.cooldown <= 0) {
         c.cooldown = 8000 + Math.random() * 16000;
@@ -278,6 +282,7 @@
 
   function draw() {
     ctx.clearRect(0, 0, width, height);
+    ctx.globalAlpha = OPACITY;
 
     // Faint links between close neighbors give the sense of a tissue.
     ctx.lineWidth = 1;
@@ -365,7 +370,7 @@
   }
 
   function start() {
-    if (running || reduceMotion) return;
+    if (running || still) return;
     running = true;
     lastTime = 0;
     requestAnimationFrame(frame);
@@ -400,9 +405,9 @@
   });
 
   resize();
-  if (reduceMotion) {
+  if (still) {
     // One still frame with a few signals frozen mid-flight.
-    for (let i = 0; i < 12; i++) {
+    for (let i = 0; i < 8; i++) {
       const c = cells[Math.floor(Math.random() * cells.length)];
       const n = nearestNeighbor(c);
       if (n) { sendSignal(c, n, 0.6); pulses[pulses.length - 1].t = Math.random(); n.glow = 0.6; }

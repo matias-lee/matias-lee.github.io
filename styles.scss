@@ -103,8 +103,11 @@ body:not(.home) main.content {
   padding: 1.5rem 2rem 2rem;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
-  // Size the card to its content rather than stretching it to the window.
+  // Size the card to its content rather than stretching it to the window,
+  // and make it about 65% of the window wide (never narrower than 900px when there is room).
   align-self: start;
+  justify-self: center;
+  width: clamp(min(100%, 900px), 65vw, 1600px);
 
   @media (max-width: 640px) {
     padding: 1.25rem 1rem 1.5rem;

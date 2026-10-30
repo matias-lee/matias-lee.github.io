@@ -40,6 +40,8 @@ format:
   html:
     theme: [cosmo, styles.scss]
     toc: false
+    # Full-width layout; styles.scss sets the text card to about 65% of the window.
+    page-layout: full
     # No math on this site, so skip loading MathJax and its polyfill from outside servers.
     html-math-method: plain
     include-after-body: _includes/cell-background.html

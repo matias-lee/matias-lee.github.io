@@ -11,7 +11,8 @@ body-classes: home
     background: rgba(255, 255, 255, 0.96);
     border: 1px solid #d5e2ea;
     border-radius: 14px;
-    max-width: 900px;
+    /* About 65% of the window, but never narrower than 900px when there is room. */
+    width: clamp(min(100%, 900px), 65vw, 1600px);
     margin: 2rem auto;
     display: grid;
     grid-template-columns: 260px 1fr;
