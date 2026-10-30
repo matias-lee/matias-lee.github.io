@@ -4,9 +4,21 @@ title: "Research & Publications"
 
 ## Research interests
 
-Computational spatial transcriptomics and cell-cell communication.
+Computational methods for spatial transcriptomics, cell-cell communication, and subcellular gene expression.
 
-<!-- TODO (step 3): a short paragraph per research direction, with a figure. -->
+## Current project
+
+::: {.research-panel}
+[In progress]{.panel-label}
+
+### Bringing the endoplasmic reticulum into cell-cell interaction prediction
+
+Many of the signals cells send to each other, such as secreted ligands, are made in the endoplasmic reticulum (ER) before they leave the cell. Most methods for predicting cell-cell interactions ignore where inside a cell a gene is expressed, so they miss this ER-specific information.
+
+I am developing a method that estimates ER-specific gene expression in spatial transcriptomics datasets that have no ER staining. It works from the local density of known ER-enriched secretome genes, and I benchmark it against datasets where ER staining is available. The goal is to use this ER signal to make cell-cell interaction predictions more accurate.
+
+**Keywords:** spatial transcriptomics · subcellular localization · endoplasmic reticulum · secretome · cell-cell communication
+:::
 
 ## Publications
 
