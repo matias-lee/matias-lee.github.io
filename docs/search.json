@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Matias Lee",
     "section": "",
-    "text": "Matias Lee\n    PhD Student · Biomedical Engineering · Johns Hopkins University\n    \n      \n      \n      \n      \n      iD\n    \n  \n  \n    About\n    I am a second-year PhD student in Biomedical Engineering at Johns Hopkins University and a member of the JEFworks Lab, advised by Dr. Jean Fan. My research focuses on computational methods for spatial transcriptomics, with an emphasis on modeling cell-cell communication within tissues using data from spatial technologies such as Visium, Visium HD, MERFISH, and MERSCOPE, as well as cutting-edge technologies like Atera. Knowing which ligand-receptor pairs are active between neighboring cells can help explain how diseases like cancer progress and point to new drug targets. I build open-source tools so other researchers can run these analyses on their own data."
+    "text": "Matias Lee\n    PhD Student · Biomedical Engineering · Johns Hopkins University\n    \n      \n      \n      \n      \n      iD\n    \n  \n  \n    About\n    I am a second-year PhD student in Biomedical Engineering at Johns Hopkins University and a member of the JEFworks Lab, advised by Dr. Jean Fan. My research focuses on computational methods for spatial transcriptomics, with an emphasis on modeling cell-cell communication within tissues using data from spatial technologies such as Visium, Visium HD, MERFISH, and MERSCOPE, as well as cutting-edge technologies like Atera. Knowing which cells are communicating with one another can help explain how diseases like cancer progress and point to new drug targets. I build open-source tools so other researchers can run these analyses on their own data."
   },
   {
     "objectID": "blog/index.html",
