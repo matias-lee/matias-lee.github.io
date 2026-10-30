@@ -11,6 +11,12 @@ website:
   title: "Matias Lee"
   site-url: "https://matias-lee.github.io"
   description: "PhD student in Biomedical Engineering at Johns Hopkins University."
+  favicon: images/favicon.png
+  # Link previews when the site is shared on LinkedIn, Slack, and similar.
+  open-graph:
+    image: images/social-card.png
+  twitter-card:
+    image: images/social-card.png
   navbar:
     left:
       - href: index.qmd
