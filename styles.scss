@@ -144,3 +144,40 @@ body:not(.home) main.content {
   flex-basis: 7rem;
   flex-shrink: 0;
 }
+
+// Like button at the end of blog posts (likes.js).
+.like-bar {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e3ecf1;
+}
+
+.like-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border: 1px solid $primary;
+  border-radius: 999px;
+  background: #fff;
+  color: $primary;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover:not(:disabled),
+  &:focus-visible {
+    background: $primary;
+    color: #fff;
+  }
+
+  &.liked {
+    cursor: default;
+    background: #e3eef4;
+  }
+
+  .like-heart {
+    font-size: 1.1rem;
+    line-height: 1;
+  }
+}

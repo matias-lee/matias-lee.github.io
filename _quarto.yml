@@ -5,6 +5,7 @@ project:
   # Files used by raw HTML, which Quarto would not copy on its own.
   resources:
     - cells.js
+    - likes.js
     - images/
 
 website:
