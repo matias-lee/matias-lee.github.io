@@ -7,11 +7,25 @@
     "text": "Matias Lee\n    PhD Student · Biomedical Engineering · Johns Hopkins University\n    NSF GRFP Fellow\n    \n      \n      \n      \n      \n      iD\n    \n  \n  \n    About\n    I am a second-year PhD student in Biomedical Engineering at Johns Hopkins University and a member of the JEFworks Lab, advised by Dr. Jean Fan. My research focuses on computational methods for spatial transcriptomics, with an emphasis on modeling cell-cell communication within tissues using data from spatial technologies such as Visium, Visium HD, MERFISH, and MERSCOPE, as well as cutting-edge technologies like Atera. Knowing which cells are communicating with one another can help explain how diseases like cancer progress and point to new drug targets. I build open-source tools so other researchers can run these analyses on their own data."
   },
   {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
+    "objectID": "blog/2026-11-03-writing-is-thinking/index.html",
+    "href": "blog/2026-11-03-writing-is-thinking/index.html",
+    "title": "Writing is Thinking",
     "section": "",
-    "text": "Reflections as a graduate student\n\n\nCan large language models conduct research on their own?\n\n\n\n\n\nJul 24, 2026\n\n\n\n\n\nNo matching items"
+    "text": "I recently came across Jascha Sohl-Dickstein’s talk at Stanford’s Conference on Physics and AI, and he made the claim that advancements towards AGI will revamp traditional academic, Ph.D., and tenure-track positions.\nHe argues AI’s capabilities in the research setting will grow exponentially, and in the context of research, this will enable discoveries on scales that we cannot fathom now. He suggests that the “safe” career path of pursuing a PhD, postdoctoral position, and then a faculty position may sacrifice other higher “leverage” opportunities and might not be as “safe” as we perceive them to be. He claims that young investigators like me should focus on research that scales with compute, like empirical AI safety, physical sciences that require data, and AI public policy rather than focusing on optimization-style research that larger models will make obsolete.\nWhile Jascha pushes for automating the execution of tasks, he still strongly believes that writing is thinking. If you outsource your writing, then you will outsource your thinking, and it is important that we continue to write to allow us to synthesize new ideas.\nPersonally, I’m cautiously skeptical of AI’s advancements. As a technical staff member at Anthropic, Jascha has first-hand knowledge that these models will continue to scale. But it is hard to differentiate this hype from a possible AI bubble. Regardless of his claims about how AI will transform how scientists do research, his claim that we must continue to write resonates strongly with me. It is a helpful reminder that AI is a powerful tool and may at some point in the future become a sort of “super-intelligence”. Nonetheless, AI will never be able to do my thinking for me, and keeping that in mind is key moving forward as we live in an increasingly AI-centric world."
+  },
+  {
+    "objectID": "blog/2026-07-24-llms-and-research/index.html",
+    "href": "blog/2026-07-24-llms-and-research/index.html",
+    "title": "Reflections as a graduate student",
+    "section": "",
+    "text": "In this blog, I will share my thoughts and experiences as a graduate student at Johns Hopkins University. In an era of rapid expansion of the use of Large Language Models (LLMs), in research there is a growing question about the ability of these models to be able to conduct autonomous research. I had a conversation today with a fellow CCB member, and we discussed the feasibility of LLMs in this context, and we were not convinced that they can fully replace human researchers in the near future."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "An updated CV is coming soon. In the meantime, see my LinkedIn."
   },
   {
     "objectID": "research.html",
@@ -42,18 +56,11 @@
     "text": "Publications\nA full list is on Google Scholar and ORCID."
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
     "section": "",
-    "text": "An updated CV is coming soon. In the meantime, see my LinkedIn."
-  },
-  {
-    "objectID": "blog/2026-07-24-llms-and-research/index.html",
-    "href": "blog/2026-07-24-llms-and-research/index.html",
-    "title": "Reflections as a graduate student",
-    "section": "",
-    "text": "In this blog, I will share my thoughts and experiences as a graduate student at Johns Hopkins University. In an era of rapid expansion of the use of Large Language Models (LLMs), in research there is a growing question about the ability of these models to be able to conduct autonomous research. I had a conversation today with a fellow CCB member, and we discussed the feasibility of LLMs in this context, and we were not convinced that they can fully replace human researchers in the near future."
+    "text": "Writing is Thinking\n\n\n\n\n\n\n\n\nNov 3, 2026\n\n\n\n\n\n\n\nReflections as a graduate student\n\n\nCan large language models conduct research on their own?\n\n\n\n\n\nJul 24, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "news.html",

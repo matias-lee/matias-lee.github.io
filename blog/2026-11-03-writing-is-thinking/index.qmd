@@ -1,0 +1,12 @@
+---
+title: "Writing is Thinking"
+date: 2026-11-03
+---
+
+I recently came across Jascha Sohl-Dickstein’s [talk](https://www.youtube.com/watch?v=3LZN2UUxDos&t=93s) at Stanford’s Conference on Physics and AI, and he made the claim that advancements towards AGI will revamp traditional academic, Ph.D., and tenure-track positions.
+
+He argues AI’s capabilities in the research setting will grow exponentially, and in the context of research, this will enable discoveries on scales that we cannot fathom now. He suggests that the “safe” career path of pursuing a PhD, postdoctoral position, and then a faculty position may sacrifice other higher “leverage” opportunities and might not be as “safe” as we perceive them to be. He claims that young investigators like me should focus on research that scales with compute, like empirical AI safety, physical sciences that require data, and AI public policy rather than focusing on optimization-style research that larger models will make obsolete.
+
+While Jascha pushes for automating the execution of tasks, he still strongly believes that writing is thinking. If you outsource your writing, then you will outsource your thinking, and it is important that we continue to write to allow us to synthesize new ideas.
+
+Personally, I’m cautiously skeptical of AI’s advancements. As a technical staff member at Anthropic, Jascha has first-hand knowledge that these models will continue to scale. But it is hard to differentiate this hype from a possible AI bubble. Regardless of his claims about how AI will transform how scientists do research, his claim that we must continue to write resonates strongly with me. It is a helpful reminder that AI is a powerful tool and may at some point in the future become a sort of “super-intelligence”. Nonetheless, AI will never be able to do my thinking for me, and keeping that in mind is key moving forward as we live in an increasingly AI-centric world.
